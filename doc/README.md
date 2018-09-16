@@ -18,3 +18,5 @@ to make html
 ```
 make html
 ```
+
+You must have LaTeX and latex2html installed on your system
