@@ -14,7 +14,7 @@ de todas formas es por el modulo
 print $CGI->header;
 
 my $dbh = DBI->connect("DBI:mysql:database=registros;host=localhost",
-                       "contraseña", "usuario",
+                       "user", "pass",
                        {'RaiseError' => 1});
 #Vuestra Merced sabrá los formularios POST
 my $user = $CGI->param("user");
@@ -28,13 +28,13 @@ if ($len>12) {
 print("Menos de 12 caracteres");
 die;
 }
-my $resultado = $dbh->do("SELECT * FROM users WHERE users='$user'");
+my $resultado = $dbh->do("SELECT * FROM users WHERE users= ". $dbh->quote($user));
 if ($resultado > 0) {
 #print $resultado;
 print "1";
 	exit;
 }
-$dbh->do("INSERT INTO users (users, passwd) VALUES ('$user','$password')");
+$dbh->do("INSERT INTO users (users, passwd) VALUES " . $dbh->quote($user) . "," . $dbh->quote($password));
 print "0";
 # Desconectole a la base de datos
 $dbh->disconnect();
