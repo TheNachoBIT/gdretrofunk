@@ -9,7 +9,7 @@ print $cgi->header;
 my $user = $cgi->param("user");
 my $pass = $cgi->param("pass");
 my $password = sha256_hex($pass);
-my $XD = $db->do("SELECT * FROM users WHERE users= ". $db->quote($user) . "AND passwd=" . $db->quote($password));
+my $XD = $db->do("SELECT * FROM users WHERE users= " . $db->quote($user) . "AND passwd=" . $db->quote($password));
 if ($XD == 1) {
     printf("1");
 }
