@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Geometry Dash RetroFunk.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\AccountSystem\UserAccount.cs">
+    <Files>
+      <File FileName="Assets\InGameLevelEditor\Triggers\ColorTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\InGameLevelEditor\Triggers\LerpObjectInMT.cs" Line="1" Column="1" />
+      <File FileName="Assets\InGameLevelEditor\Triggers\DisableEnableTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\AccountSystem\UserAccount.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

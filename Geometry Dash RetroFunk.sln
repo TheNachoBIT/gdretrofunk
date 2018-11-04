@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry Dash RetroFunk", "Geometry Dash RetroFunk.csproj", "{9AF58CDD-3B4F-6B02-53D2-4C071474D844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry Dash RetroFunk.Plugins", "Geometry Dash RetroFunk.Plugins.csproj", "{3747CB10-E15C-2E46-567F-24E9773921A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry Dash RetroFunk.Editor", "Geometry Dash RetroFunk.Editor.csproj", "{22F2FB9F-B543-DFD3-7DE9-9406599EAE7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry Dash RetroFunk.Editor.Plugins", "Geometry Dash RetroFunk.Editor.Plugins.csproj", "{E75F22BE-31C9-042B-C007-3BAB051567EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AF58CDD-3B4F-6B02-53D2-4C071474D844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF58CDD-3B4F-6B02-53D2-4C071474D844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF58CDD-3B4F-6B02-53D2-4C071474D844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF58CDD-3B4F-6B02-53D2-4C071474D844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3747CB10-E15C-2E46-567F-24E9773921A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3747CB10-E15C-2E46-567F-24E9773921A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3747CB10-E15C-2E46-567F-24E9773921A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3747CB10-E15C-2E46-567F-24E9773921A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F2FB9F-B543-DFD3-7DE9-9406599EAE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F2FB9F-B543-DFD3-7DE9-9406599EAE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F2FB9F-B543-DFD3-7DE9-9406599EAE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F2FB9F-B543-DFD3-7DE9-9406599EAE7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E75F22BE-31C9-042B-C007-3BAB051567EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E75F22BE-31C9-042B-C007-3BAB051567EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E75F22BE-31C9-042B-C007-3BAB051567EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E75F22BE-31C9-042B-C007-3BAB051567EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
